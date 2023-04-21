@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GMAT Test Prep Books Inventory</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>GMAT Test Prep Books Inventory</h1>
+		<table>
+			<tr>
+				<th></th>
+				<th>Scaled Score</th>
+				<th>Percentile</th>
+			</tr>
+			<tr>
+				<td>Integrated Reasoning</td>
+				<td><input type="number" id="integScore"></td>
+				<td><input type="number" id="integPercent"></td>
+			</tr>
+			<tr>
+				<td>Quantitative</td>
+				<td><input type="number" id="quantScore"></td>
+				<td><input type="number" id="quantPercent"></td>
+			</tr>
+			<tr>
+				<td>Verbal</td>
+				<td><input type="number" id="verbalScore"></td>
+				<td><input type="number" id="verbalPercent"></td>
+			</tr>
+			<tr>
+				<td>Total*</td>
+				<td><input type="number" id="totalScore"></td>
+				<td><input type="number" id="totalPercent"></td>
+			</tr>
+		</table>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	margin-top: 20px;
+	width: 100%;
+}
+
+th, td {
+	padding: 10px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+th {
+	background-color: #ddd;
+}
+
+td input[type="number"] {
+	width: 60px;
+}
